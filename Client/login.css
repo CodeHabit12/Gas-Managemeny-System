@@ -1,0 +1,79 @@
+body{
+	background-color: #c0c0c0;
+	background-image: linear-gradient(rgba(5,0,136,0.6),rgba(5,0,136,0.5)),url(../images/dashboard.png);
+	background-position: center;
+	overflow-x: hidden;
+	background-size: cover no-repeat;
+}
+.container{
+	width: 50%;
+	background: #fff;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: auto;
+	margin-top: 8%;
+	position: absolute;
+	border-radius: 10px;
+}
+.container h1{
+	font-size: 28px;
+	text-align: center;
+	color: #00FFFF;
+}
+.form_inputs{
+	margin-left: 5%;
+	padding: 10px;
+	font-size: 24px;
+
+}
+.form_inputs input{
+	width: 90%;
+	height: 30px;
+	margin-top: 5px;
+	border-radius: 7px;
+}
+.submit{
+	margin-left: 15%;
+
+}
+.submit input{
+	font-size: 24px;
+	border-radius: 7px;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	width: 80%;
+}
+.submit input:hover{
+	background: #00FFFF;
+}
+.submit a{
+	border-radius: 7px;
+	text-decoration: none;
+	font-size: 17px;
+	color: black;
+	margin-bottom: 2%;
+	margin-top: 10px;
+}
+.submit a:hover{
+	background: #00FFFF;
+}
+.forget{
+	margin-top: 20px;
+	font-size: 24px;
+	margin-bottom: 5%;
+	width: 80%;
+	text-align: center;	
+}
+.account{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	height: 35px;
+	width: 80%;
+	border-radius: 7px;
+}
+.account:hover{
+	background: #00FFFF;
+}
+.forget:hover{
+	background: #00FFFF;
+}

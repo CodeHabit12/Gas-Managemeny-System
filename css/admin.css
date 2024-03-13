@@ -1,0 +1,11 @@
+*{
+	background: #c0c0c0;
+}
+.container{
+	width: 90%;
+	height: 100vh;
+	background: #eee;
+	border-style: dashed;
+	margin-right: 5%;
+	margin-left: 5%;
+}

@@ -1,0 +1,72 @@
+body{
+	background: #C0C0C0;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	border-radius: 10px;
+	width: 40%;
+	height: 550px;
+	background: #00FFFF;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+.login{
+	align-items: center;
+	text-align: center;
+	font-style: bold;
+	font-size: 28px;
+}
+.login form{
+	font-size: 24px;
+	align-items: center;
+	align-content: center;
+	size: 24px;
+}
+.form_input{
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 24px;
+	text-align: center;
+	height: 40px;
+}
+.submit{
+	height: 30px;
+	border-radius: 10px;
+	width: 80%;
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 40px;
+	font-size: 24px;
+	background: #C0C0C0;
+}
+.signup{
+	background: #C0C0C0;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+}
+.forgot{
+	background: #C0C0C0;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}

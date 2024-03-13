@@ -1,0 +1,125 @@
+body{
+	background: #669966;
+}
+.header{
+	width: 100%;
+	height: 40px;
+	background: black;
+	display: flex;
+}
+.header p{
+	color: white;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+	padding-left: 5%;
+}
+.header a{
+	padding: 7px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	margin-left: 2%;
+}
+.header a:hover{
+	background: #00FFFF;
+	color: black;
+}
+#title{
+	border: 1px solid;
+	margin: 0;
+	height: 80px;
+	width: 100%;
+}
+#title p{
+	margin: 0;
+	padding: 20px;
+	font-size: 35px;
+}
+.table{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	border: 1px solid;
+	height: 100vh;
+}
+#form_inputs{
+	height: 60px;
+	width: 100%;
+	border: 1px dashed;
+}
+#form_inputs label{
+	float: left;
+	width: 20%;
+	height: 30px;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-left: 3%;
+}
+#form_inputs input{
+	width: 70%;
+	border-radius: 5px;
+	margin-top: 10px;
+	height: 30px;
+}
+#submit{
+	width: 40%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#submit input{
+	font-size: 24px;
+	text-align: center;
+	width: 60%;
+	height: 40px;
+}
+#form_inputs select{
+	width: 70%;
+	border-radius: 5px;
+	margin-top: 8px;
+	height: 35px;
+}
+#form_input{
+	width: 100%;
+	height: 50px;
+	border: 1px solid;
+}
+#form_input label{
+	float: left;
+	width: 20%;
+	height: 30px;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+#form_input input{
+	height: 30px;
+	width: 22.6%;
+	margin-top: 8px;
+}
+#form_inputs_addr{
+	height: 70px;
+	width: 100%;
+	margin-left: 10px;
+	border: 1px dashed;
+}
+#form_inputs_addr label{
+	float: left;
+	width: 20%;
+	height: 30px;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+#form_inputs_addr textarea{
+	width: 70%;
+	margin: 0;
+	text-align: left;
+	padding: 0;
+	resize: none;
+	border-radius: 5px;
+	margin-top: 8px;
+	height: 50px;
+}
